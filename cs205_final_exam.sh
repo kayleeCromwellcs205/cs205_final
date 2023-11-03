@@ -10,3 +10,16 @@
 # The spacing and header formatting should match the above formatting description exactly.
 # There should be a comment explaining the purpose of each line in your shell script. 
 # The data file will be passed in to the script as a positional parameter and will not necessarily be called best_pokemon.dat. However, you can assume that any file passed to this script will be formatted exactly the way best_pokemon.dat is formatted.
+
+#!/bin/bash
+
+total=$1
+avgHP=($5/total)
+avgAttack=($6/total)
+
+echo "===== SUMMARY OF DATA FILE ====="
+echo "File name: $FILE"
+echo "Total Pokemon: $total"
+echo "Avg. HP: $avgHP"
+echo "Avg. Attack: $avgAttack"
+echo "===== END SUMMARY ====="
