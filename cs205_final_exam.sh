@@ -14,12 +14,21 @@
 #!/bin/bash
 
 total=$1
+<<<<<<< HEAD
 avgHP=($4/total)
 avgAttack=(5/total)
+=======
+avgHP=($5/total)
+avgAttack=($6/total)
+>>>>>>> 72e64dcc5aba713fe2c87dc6ede1e058d22e6d61
 
 echo "===== SUMMARY OF DATA FILE ====="
 echo "File name: $FILE"
 echo "Total Pokemon: $total"
 echo "Avg. HP: $avgHP"
 echo "Avg. Attack: $avgAttack"
+<<<<<<< HEAD
 echo "===== END SUMMARY ====="
+=======
+echo "===== END SUMMARY ====="
+>>>>>>> 72e64dcc5aba713fe2c87dc6ede1e058d22e6d61
